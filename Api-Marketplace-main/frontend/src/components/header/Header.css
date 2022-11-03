@@ -1,0 +1,39 @@
+.header {
+  background-color: aqua;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.logo {
+  position: absolute;
+  width: 120px;
+  height: 29.24px;
+  left: 60px;
+  top: 28px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  color: white;
+  position: absolute;
+  width: 133px;
+  height: 44px;
+  left: 1247px;
+  top: 22px;
+  background: #142683;
+}
+/*# sourceMappingURL=Header.css.map */
